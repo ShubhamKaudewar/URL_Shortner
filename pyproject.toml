@@ -1,0 +1,16 @@
+[project]
+name = "url-shortner"
+version = "0.1.0"
+description = "URL Shortner that shorten long url using MD5 encoding and use concepts of OOPs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "fastapi[standard]>=0.115.5",
+    "pytest>=8.3.3",
+    "slowapi>=0.1.9",
+    "tinydb>=4.8.2",
+    "validators>=0.34.0",
+]
