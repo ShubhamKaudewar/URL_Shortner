@@ -13,9 +13,3 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 @app.get("/")
 def read_root():
     return "Server is running."
-
-
-# if __name__ == "__main__":
-#     input_url = "https://www.geeksforgeeks.org/system-design-interview-bootcamp"
-#     result = main(input_url)
-#     print(result)

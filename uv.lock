@@ -648,6 +648,7 @@ source = { virtual = "." }
 [package.dev-dependencies]
 dev = [
     { name = "fastapi", extra = ["standard"] },
+    { name = "httpx" },
     { name = "pytest" },
     { name = "slowapi" },
     { name = "tinydb" },
@@ -659,6 +660,7 @@ dev = [
 [package.metadata.requires-dev]
 dev = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.115.5" },
+    { name = "httpx", specifier = ">=0.27.2" },
     { name = "pytest", specifier = ">=8.3.3" },
     { name = "slowapi", specifier = ">=0.1.9" },
     { name = "tinydb", specifier = ">=4.8.2" },
