@@ -1,2 +1,2 @@
-from .rateLimiter import limiter
-from .urlRouter import router
+from .rateLimiter import limiter as limiter
+from .urlRouter import router as router

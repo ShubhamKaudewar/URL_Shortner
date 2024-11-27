@@ -1,1 +1,1 @@
-from .urlService import URLService
+from .urlService import URLService as URLService

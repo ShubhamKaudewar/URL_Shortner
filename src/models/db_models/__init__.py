@@ -1,2 +1,2 @@
-from .tinydb_instance import Instance
-from .urlModel import ShortURL
+from .tinydb_instance import Instance as Instance
+from .urlModel import ShortURL as ShortURL

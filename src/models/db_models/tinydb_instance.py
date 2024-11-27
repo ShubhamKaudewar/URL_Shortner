@@ -1,4 +1,4 @@
-from tinydb import TinyDB, Query
+from tinydb import TinyDB
 import os
 
 # Construct the path to the root-level file

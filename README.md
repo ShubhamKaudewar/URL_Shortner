@@ -97,6 +97,12 @@ Run FastAPI project
   fastapi dev main.py
 ```
 
+Run ruff check [ruff is Python linter and code formatter]
+
+```bash
+  uv run ruff check 
+```
+
 Run Test cases
 
 ```bash

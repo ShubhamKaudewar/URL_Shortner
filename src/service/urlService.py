@@ -1,9 +1,8 @@
-
+from src.dao.urlDao import UrlDao
 from hashlib import md5
 from base64 import urlsafe_b64encode
 import logging
 logger = logging.getLogger(__name__)
-from src.dao.urlDao import UrlDao
 
 class URLService:
     def __init__(self):
